@@ -6,8 +6,8 @@
 
 ## Integrantes
 
-- Luan Nascimento Caetano
-- Rafael da Silva Oliveira
+- Luan Nascimento Caetano – CP3044696
+- Rafael da Silva Oliveira – CP3044564
 
 ## Objetivo
 
@@ -124,3 +124,8 @@ Espera-se que ambos os integrantes participem do desenvolvimento e sejam capazes
 A entrega deverá ser realizada **em até 15 dias**, contados a partir da disponibilização desta atividade.
 
 O trabalho deverá representar uma pequena análise completa de dados: **organizar → selecionar → limpar → visualizar**.
+
+## Documentos
+
+- [Tarefas](Documentos/Tarefas.md): divisão de tarefas e cronograma
+- [Ambiente](Documentos/Ambiente.md): guia de desenvolvimento (ambiente local, Google Colab e branches)
