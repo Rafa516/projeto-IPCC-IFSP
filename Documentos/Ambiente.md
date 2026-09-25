@@ -14,7 +14,7 @@ Este guia explica como preparar o ambiente e como cada integrante trabalha na su
 
 ## Regras gerais (valem para as duas opções)
 
-1. Cada integrante trabalha **somente na sua branch** (`rafael` ou `luan`), criada a partir da `master`. Nunca commite direto na `master`.
+1. Cada integrante trabalha **somente na sua branch** (`Rafael` ou `Luan`), criada a partir da `master`. Nunca commite direto na `master`.
 2. Edite **somente as células da sua parte** no notebook. O responsável de cada célula está indicado no título dela.
 3. **Não salve as saídas das células** no repositório. Elas geram conflitos no merge.
 4. Quando terminar uma parte, abra um **Pull Request** da sua branch para a `master` e peça para o outro revisar.
@@ -48,14 +48,14 @@ O Git é usado pelo **GitHub Desktop**, um programa com botões que evita digita
 1. Clique em **Current branch** (barra superior) e selecione a `master`.
 2. Clique em **Fetch origin** para garantir que a `master` está atualizada.
 3. Clique em **Current branch → New branch**.
-4. Digite `rafael`, confirme que está baseada na `master` e clique em **Create branch**.
+4. Digite `Rafael`, confirme que está baseada na `master` e clique em **Create branch**.
 5. Clique em **Publish branch** para enviar a branch ao GitHub.
-6. Volte para a `master` e repita os passos 3 a 5 com o nome `luan`.
+6. Volte para a `master` e repita os passos 3 a 5 com o nome `Luan`.
 
 ### Etapa 4: Entrar na sua branch
 
 1. Clique em **Fetch origin**.
-2. Clique em **Current branch** e escolha a sua branch (`rafael` ou `luan`).
+2. Clique em **Current branch** e escolha a sua branch (`Rafael` ou `Luan`).
 
 > Sempre confira em **Current branch** se você está na **sua** branch antes de começar a trabalhar.
 
@@ -90,7 +90,7 @@ jupyter lab
 2. Salve o notebook (`Ctrl+S`).
 3. No GitHub Desktop, na aba **Changes**, confira os arquivos alterados (deve aparecer o `trabalho.ipynb`).
 4. No campo **Summary** (canto inferior esquerdo), escreva o que foi feito. Ex.: `Etapa 2: arrays e slicing com NumPy`.
-5. Clique em **Commit to rafael** (ou **luan**). Confira se o botão mostra o nome da **sua** branch.
+5. Clique em **Commit to Rafael** (ou **Luan**). Confira se o botão mostra o nome da **sua** branch.
 6. Clique em **Push origin** (barra superior) para enviar ao GitHub.
 
 ### Etapa 8: Abrir um Pull Request para a `master`
@@ -116,13 +116,13 @@ cd projeto-IPCC-IFSP
 
 # Criar as branches (só o Rafael, uma vez)
 git checkout master
-git checkout -b rafael && git push -u origin rafael
+git checkout -b Rafael && git push -u origin Rafael
 git checkout master
-git checkout -b luan && git push -u origin luan
+git checkout -b Luan && git push -u origin Luan
 
 # Entrar na sua branch
 git fetch
-git checkout rafael           # ou: luan
+git checkout Rafael           # ou: Luan
 
 # Commitar e enviar
 git add trabalho.ipynb
@@ -132,7 +132,7 @@ git push
 # Atualizar a sua branch com a master
 git checkout master
 git pull
-git checkout rafael           # ou: luan
+git checkout Rafael           # ou: Luan
 git merge master
 git push
 ```
@@ -148,7 +148,7 @@ O Colab já vem com NumPy, Pandas e Matplotlib instalados, então não é precis
 ### Etapa 1: Pré-requisitos (só na primeira vez)
 
 1. Ter acesso de **colaborador** no repositório: o dono adiciona em *GitHub → Settings → Collaborators*.
-2. As branches `rafael` e `luan` já devem existir no GitHub (etapa 3 do ambiente local).
+2. As branches `Rafael` e `Luan` já devem existir no GitHub (etapa 3 do ambiente local).
 
 ### Etapa 2: Configurar o Colab para não salvar as saídas (só na primeira vez)
 
@@ -209,7 +209,7 @@ No Colab não há `git merge`. Faça pelo site do GitHub:
 1. Confira em **Current branch** se você está na sua branch e se não há nada pendente na aba **Changes**.
 2. Clique em **Push origin** para garantir que tudo foi enviado.
 3. Vá em *Branch → Create pull request*. O navegador abre o GitHub.
-4. Confira se está **da sua branch para a `master`** (`base: master ← compare: rafael`, ou `luan`).
+4. Confira se está **da sua branch para a `master`** (`base: master ← compare: Rafael`, ou `Luan`).
 5. Escreva um título, descreva o que foi feito e clique em **Create pull request**.
 6. O outro integrante abre o Pull Request no GitHub, revisa o código e clica em **Merge pull request → Confirm merge**.
 7. Depois do merge, os dois atualizam as suas branches no GitHub Desktop:
