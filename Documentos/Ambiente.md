@@ -171,9 +171,9 @@ O Colab não enxerga a pasta `dados/` do repositório. Há duas formas de resolv
 
   ```python
   import os
-  CAMINHO_DADOS = "dados/dados.csv"
+  CAMINHO_DADOS = "dados/Base_NBB.csv"
   if not os.path.exists(CAMINHO_DADOS):  # rodando no Colab
-      CAMINHO_DADOS = "https://raw.githubusercontent.com/Rafa516/projeto-IPCC-IFSP/master/dados/dados.csv"
+      CAMINHO_DADOS = "https://raw.githubusercontent.com/Rafa516/projeto-IPCC-IFSP/master/dados/Base_NBB.csv"
   ```
 
 - **Repositório privado:** enviar o arquivo manualmente pelo ícone de pasta na barra lateral do Colab, criar a pasta `dados` e colocar o CSV dentro dela. O arquivo é apagado quando a sessão do Colab termina, então é preciso repetir a cada sessão.
