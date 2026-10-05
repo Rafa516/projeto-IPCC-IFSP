@@ -10,3 +10,8 @@ venv/
 # Sistema
 .DS_Store
 Thumbs.db
+
+# Pasta de entrega (cópia gerada para zipar)
+entrega/
+*.zip
+*.rar

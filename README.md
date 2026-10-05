@@ -9,6 +9,11 @@
 - Luan Nascimento Caetano – CP3044696
 - Rafael da Silva Oliveira – CP3044564
 
+## Projeto
+
+- [trabalho.ipynb](trabalho.ipynb): notebook do trabalho, com o código, os textos explicativos e os gráficos
+- [dados/](dados): arquivos de dados utilizados (estatísticas do NBB)
+
 ## Objetivo
 
 Este trabalho tem como objetivo integrar os conceitos iniciais de programação e análise de dados estudados na disciplina, utilizando **Python** e, obrigatoriamente, as bibliotecas **NumPy, Pandas e Matplotlib**.
